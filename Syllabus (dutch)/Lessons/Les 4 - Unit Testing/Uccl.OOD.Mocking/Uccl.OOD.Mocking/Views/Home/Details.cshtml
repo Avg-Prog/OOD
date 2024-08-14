@@ -1,0 +1,45 @@
+﻿@model Uccl.OOD.Mocking.Models.CustomerDetailModel;
+
+@{
+    ViewData["Title"] = "Details";
+}
+<h1>Customer data:</h1>
+<p>@Model.Customer.Name</p>
+<p>Orders: @Model.OrderCount</p>
+<p>Total sales: @Model.TotalPrice</p>
+
+<h1>Contact details:</h1>
+<p>@Model.Customer.Email</p>
+
+<h1>Orders:</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Productname
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Price
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.Orders)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => order.ProductName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => order.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => order.Price)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

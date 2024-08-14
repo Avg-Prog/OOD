@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ucll.OOD.Exceptions", "Ucll.OOD.Exceptions\Ucll.OOD.Exceptions.csproj", "{3B82993E-C76B-4163-9521-7C7B35C50681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExampleAPI", "MyExampleAPI\MyExampleAPI.csproj", "{ECF56066-AB63-47A0-948C-40F80505B2B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B82993E-C76B-4163-9521-7C7B35C50681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B82993E-C76B-4163-9521-7C7B35C50681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B82993E-C76B-4163-9521-7C7B35C50681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B82993E-C76B-4163-9521-7C7B35C50681}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF56066-AB63-47A0-948C-40F80505B2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF56066-AB63-47A0-948C-40F80505B2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF56066-AB63-47A0-948C-40F80505B2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF56066-AB63-47A0-948C-40F80505B2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39C688F5-47D4-40BC-9D12-1EBC8A1CF9B6}
+	EndGlobalSection
+EndGlobal

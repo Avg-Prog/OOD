@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h3>Lifetimes</h3>
+<h3>Controller Operations</h3>
+<div>
+    <strong>Transient: </strong> @ViewBag.Transient.OperationId<br />
+    <strong>Scoped: </strong> @ViewBag.Scoped.OperationId<br />
+    <strong>Singleton: </strong> @ViewBag.Singleton.OperationId<br />
+    <strong>SingletonInstane: </strong> @ViewBag.SingletonInstance.OperationId<br />
+</div>
+
+<h3>OperationService Operation</h3>
+<div>
+    <strong>Transient: </strong> @ViewBag.Service.TransientOperation.OperationId<br />
+    <strong>Scoped: </strong> @ViewBag.Service.ScopedOperation.OperationId<br />
+    <strong>Singleton: </strong> @ViewBag.Service.SingletonOperation.OperationId<br />
+    <strong>SingletonInstane: </strong> @ViewBag.Service.SingletonInstanceOperation.OperationId<br />
+</div>

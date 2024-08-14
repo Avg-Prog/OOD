@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+
+    <RunSettingsFilePath>C:\Users\wivan\UC Leuven-Limburg\Graduaat Programmeren - Object Oriented Design\Lessen\Les 4 - Unit Testing\Uccl.OOD.Mocking\Uccl.OOD.MockingTests\bin\Debug\net6.0\fine-code-coverage\coverage-tool-output\Uccl.OOD.MockingTests-fcc-mscodecoverage-generated.runsettings</RunSettingsFilePath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Moq" Version="4.17.2" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.7" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.7" />
+    <PackageReference Include="coverlet.collector" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Uccl.OOD.Mocking\Uccl.OOD.Mocking.csproj" />
+  </ItemGroup>
+
+</Project>
